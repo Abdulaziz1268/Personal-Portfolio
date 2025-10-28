@@ -17,9 +17,6 @@ function App() {
       <Projects />
       <Contact />
       <Footer />
-      <div className="min-h-screen bg-white text-black dark:bg-black dark:text-white transition-colors duration-500 flex items-center justify-center">
-        <h1 className="text-3xl font-bold">Theme works!</h1>
-      </div>
     </div>
   )
 }
