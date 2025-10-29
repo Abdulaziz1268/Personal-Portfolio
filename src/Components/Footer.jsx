@@ -36,7 +36,7 @@ export default function Footer() {
         </div>
       </div>
       <p className="text-gray-400 py-5 text-center font-semibold">
-        © 2023 Abdulaziz Musa. All rights reserved.
+        © 2025 Abdulaziz Musa. All rights reserved.
       </p>
     </div>
   )

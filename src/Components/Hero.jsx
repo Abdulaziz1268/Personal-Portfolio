@@ -28,7 +28,7 @@ export default function Hero() {
           ideas into functional, user-friendly digital solutions.
         </p>
         <div className="flex gap-5">
-          <button className="transition-colors duration-800 ease-in-out w-40 h-13 rounded-xl bg-white hover:bg-white/0 dark:bg-gray-900 hover:border-3 border-2 dark:hover:border-gray-900 hover:text-white text-blue-500 text-md font-medium hover:cursor-pointer">
+          <button className="transition-colors duration-800 ease-in-out w-40 h-13 rounded-xl bg-white hover:bg-white/0 dark:bg-gray-900 hover:border-3 border-3 border-white dark:border-gray-900 dark:hover:border-gray-900 hover:text-white text-blue-500 text-md font-medium hover:cursor-pointer">
             View My Work
           </button>
           <button className="transition-colors duration-800 ease-in-out w-40 h-13 rounded-xl hover:bg-white dark:hover:bg-gray-900 hover:text-blue-500 text-md hover:cursor-pointer font-medium border-3 hover:border-white dark:hover:border-gray-900 dark:border-gray-900">
