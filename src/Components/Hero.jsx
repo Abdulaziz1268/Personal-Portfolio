@@ -13,7 +13,7 @@ export default function Hero() {
   }
   return (
     <div
-      className=" flex flex-col gap-10 justify-between md:gap-0 md:flex-row py-32 px-10 lg:px-32 bg-linear-to-br from-[#647ae2] to-[#764ba2] w-screen h-auto md:h-screen text-white relative"
+      className="transition-colors duration-800 ease-in-out flex flex-col gap-10 justify-between md:gap-0 md:flex-row py-32 px-10 lg:px-32 bg-linear-to-r from-blue-500 to-gray-200 dark:to-gray-800 w-screen h-auto md:h-screen text-white relative"
       id="home"
     >
       <div className="md:w-[50%]">
@@ -28,10 +28,10 @@ export default function Hero() {
           ideas into functional, user-friendly digital solutions.
         </p>
         <div className="flex gap-5">
-          <button className="w-40 h-13 rounded-xl bg-white text-blue-500 text-md font-medium hover:cursor-pointer">
+          <button className="transition-colors duration-800 ease-in-out w-40 h-13 rounded-xl bg-white hover:bg-white/0 dark:bg-gray-900 hover:border-3 border-2 dark:hover:border-gray-900 hover:text-white text-blue-500 text-md font-medium hover:cursor-pointer">
             View My Work
           </button>
-          <button className="w-40 h-13 rounded-xl hover:bg-white hover:text-blue-500 text-md hover:cursor-pointer font-medium border-3 hover:border-white">
+          <button className="transition-colors duration-800 ease-in-out w-40 h-13 rounded-xl hover:bg-white dark:hover:bg-gray-900 hover:text-blue-500 text-md hover:cursor-pointer font-medium border-3 hover:border-white dark:hover:border-gray-900 dark:border-gray-900">
             Contact Me
           </button>
         </div>
@@ -44,9 +44,13 @@ export default function Hero() {
               alt="profile image"
               className="w-40 lg:w-70 rounded-full hover:scale-135 ease-in-out duration-700 hover:cursor-pointer"
             />
-            <div className="flex flex-col justify-center items-center w-30 py-5 px-1 rounded-xl bg-[#3b82f6] absolute bottom-[-20px] right-[-60px] ">
-              <p className="text-lg font-bold">1+</p>
-              <p className="text-sm"> Years Experience</p>
+            <div className="flex flex-col justify-center items-center w-30 py-5 px-1 rounded-xl bg-blue-500 absolute -bottom-5 -right-15 ">
+              <p className="text-lg font-bold dark:text-gray-900 transition-colors duration-800 ease-in-out">
+                1+
+              </p>
+              <p className="text-sm dark:text-gray-900 transition-colors duration-800 ease-in-out">
+                Year Experience
+              </p>
             </div>
           </div>
         </div>
@@ -55,7 +59,10 @@ export default function Hero() {
         className="flex md:hidden lg:flex absolute bottom-8 md:bottom-10 lg:bottom-30 left-[49.5%] animate-bounce hover:cursor-pointer"
         onClick={() => scrollToSection("#about")}
       >
-        <FaChevronDown size={25} />
+        <FaChevronDown
+          size={25}
+          className="dark:text-gray-900 transition-all duration-800 ease-in-out hover:scale-110"
+        />
       </button>
     </div>
   )

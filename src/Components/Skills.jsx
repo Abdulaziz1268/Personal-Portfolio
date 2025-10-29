@@ -29,11 +29,11 @@ const additionalSkills = [
 export default function Skills() {
   return (
     <div
-      className="flex flex-col items-center justify-center py-15 bg-gray-50 dark:bg-gray-950 w-screen"
+      className="flex flex-col items-center justify-center py-15 bg-gray-50 dark:bg-gray-950 w-screen transition-colors duration-800 ease-in-out"
       id="skills"
     >
       <div className="flex justify-center mb-10">
-        <p className="text-gray-900 dark:text-gray-100 font-bold text-4xl">
+        <p className="text-gray-900 dark:text-gray-100 font-bold text-4xl transition-colors duration-800 ease-in-out">
           Skills & Technologies
         </p>
       </div>
