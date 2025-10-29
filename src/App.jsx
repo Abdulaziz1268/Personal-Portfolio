@@ -11,6 +11,7 @@ function App() {
   return (
     <div className="w-screen h-screen no-scrollbar">
       <NavBar />
+      {/* <div className="w-full h-52 bg-amber-700 dark:bg-gray-950"></div> */}
       <Hero />
       <About />
       <Skills />
