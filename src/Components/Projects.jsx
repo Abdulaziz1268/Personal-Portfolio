@@ -41,11 +41,13 @@ const projects = [
 export default function Projects() {
   return (
     <div
-      className="flex flex-col items-center justify-center py-15 w-screen"
+      className="dark:bg-gray-900 flex flex-col items-center justify-center py-15 w-screen"
       id="projects"
     >
       <div className="w-[50%] flex justify-center mb-10">
-        <p className="text-[#1f2937] font-bold text-4xl">Projects</p>
+        <p className="text-gray-900 dark:text-gray-100 font-bold text-4xl">
+          Projects
+        </p>
       </div>
       <div className="flex flex-wrap gap-6 justify-evenly">
         {projects.map((project, index) => (

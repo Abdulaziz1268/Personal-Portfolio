@@ -16,36 +16,36 @@ export default function NavBar() {
     }
   }
   return (
-    <div className=" w-screen px-5 md:px-20 flex justify-center items-center h-[60px] bg-white/90 fixed z-50">
+    <div className=" w-screen px-5 md:px-20 flex justify-center items-center h-[60px] bg-white/90 dark:bg-white/10 fixed z-50">
       <div className="flex  items-center w-full">
         <p className="font-bold text-xl text-blue-500 flex-1">Abdulaziz Musa</p>
         <ul className="hidden md:flex justify-evenly gap-5 text-lg">
           <li
-            className="text-gray-700 hover:text-blue-500 outline-0 hover:cursor-pointer"
+            className="text-gray-700 dark:text-gray-300 hover:text-blue-500 outline-0 hover:cursor-pointer"
             onClick={() => handleNavClick("#home")}
           >
             Home
           </li>
           <li
-            className="text-gray-700 hover:text-blue-500 outline-0 hover:cursor-pointer"
+            className="text-gray-700 dark:text-gray-300 hover:text-blue-500 outline-0 hover:cursor-pointer"
             onClick={() => handleNavClick("#about")}
           >
             About
           </li>
           <li
-            className="text-gray-700 hover:text-blue-500 outline-0 hover:cursor-pointer"
+            className="text-gray-700 dark:text-gray-300 hover:text-blue-500 outline-0 hover:cursor-pointer"
             onClick={() => handleNavClick("#skills")}
           >
             Skills
           </li>
           <li
-            className="text-gray-700 hover:text-blue-500 outline-0 hover:cursor-pointer"
+            className="text-gray-700 dark:text-gray-300 hover:text-blue-500 outline-0 hover:cursor-pointer"
             onClick={() => handleNavClick("#projects")}
           >
             Projects
           </li>
           <li
-            className="text-gray-700 hover:text-blue-500 outline-0 hover:cursor-pointer mr-25"
+            className="text-gray-700 dark:text-gray-300 hover:text-blue-500 outline-0 hover:cursor-pointer mr-25"
             onClick={() => handleNavClick("#contact")}
           >
             Contact

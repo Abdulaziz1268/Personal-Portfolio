@@ -3,9 +3,13 @@ import { FaArrowRight } from "react-icons/fa"
 
 export default function ProjectsCard({ project }) {
   return (
-    <div className="w-[80%] lg:w-sm mb-10 p-5 shadow-md hover:scale-105 duration-300 ease-in-out rounded-2xl bg-gray-50">
-      <p className="font-bold text-xl mb-3">{project.title}</p>
-      <p className="text-[#4b5563] mb-3">{project.description}</p>
+    <div className="w-[80%] lg:w-sm mb-10 p-5 shadow-md hover:scale-105 duration-300 ease-in-out rounded-2xl bg-gray-50 dark:bg-gray-950">
+      <p className="font-bold text-xl mb-3 dark:text-gray-100">
+        {project.title}
+      </p>
+      <p className="text-gray-700 dark:text-gray-300 mb-3">
+        {project.description}
+      </p>
       <div className="flex justify-evenly">
         <a
           href={project.githubLink}
