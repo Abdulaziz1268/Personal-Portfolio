@@ -16,7 +16,7 @@ export default function NavBar() {
     }
   }
   return (
-    <div className=" w-screen px-5 md:px-20 flex justify-center items-center h-[60px]  fixed z-50">
+    <div className=" w-screen px-5 md:px-20 flex justify-center items-center h-[60px]  fixed z-50 backdrop-blur-sm">
       <div className="flex  items-center w-full">
         <p className="font-bold text-xl text-white flex-1">Abdulaziz Musa</p>
         <ul className="hidden md:flex justify-evenly gap-5 text-lg">
