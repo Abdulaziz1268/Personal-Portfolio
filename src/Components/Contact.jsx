@@ -8,7 +8,7 @@ export default function Contact() {
       className="flex flex-col items-center justify-center py-15 bg-gray-50 dark:bg-gray-950"
       id="contact"
     >
-      <div className="w-[50%] flex justify-center mb-10">
+      <div className="flex justify-center mb-10 w-full">
         <p className="text-gray-900 dark:text-gray-100 font-bold text-4xl">
           Get In Touch
         </p>
@@ -57,7 +57,9 @@ export default function Contact() {
           </div>
           <div className="flex-1 overflow-hidden dark:text-gray-300">
             <p className="font-bold text-lg">LinkedIn</p>
-            <p>https://www.linkedin.com/in/abdulaziz-musa-b26798196/</p>
+            <p className="whitespace-nowrap">
+              https://www.linkedin.com/in/abdulaziz-musa-b26798196/
+            </p>
           </div>
         </a>
       </div>

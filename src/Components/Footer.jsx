@@ -11,7 +11,7 @@ export default function Footer() {
             Full-Stack Developer & Software Engineer
           </p>
         </div>
-        <div className="text-gray flex gap-4 mb-3">
+        <div className="text-gray flex gap-4 my-5">
           <a href="mailto:abdumh1268@gmail.com" target="_blank">
             <MdEmail
               size={25}

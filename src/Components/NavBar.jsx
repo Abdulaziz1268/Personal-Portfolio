@@ -58,7 +58,11 @@ export default function NavBar() {
             className="ml-5 flex flex-col md:hidden hover:cursor-pointer p-1 hover:shadow-sm hover:shadow-gray-200 rounded-full active:animate-ping"
             onClick={() => setMenuOpen((prev) => !prev)}
           >
-            {menuOpen ? <FaTimes /> : <FaBars />}
+            {menuOpen ? (
+              <FaTimes className="text-gray-950 dark:text-gray-50" />
+            ) : (
+              <FaBars className="text-gray-950 dark:text-gray-50" />
+            )}
           </button>
           {menuOpen && (
             <ul className="flex flex-col items-center justify-evenly text-md absolute right-12 top-8 overflow-hidden bg-white border-0 rounded-2xl shadow-sm shadow-gray-400">
