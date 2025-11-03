@@ -1,5 +1,6 @@
 import React from "react"
 import { FaChevronDown } from "react-icons/fa"
+import { FaDownload } from "react-icons/fa6"
 
 export default function Hero() {
   const scrollToSection = (sectionId) => {
@@ -28,13 +29,25 @@ export default function Hero() {
           ideas into functional, user-friendly digital solutions.
         </p>
         <div className="flex gap-5">
-          <button className="transition-colors duration-800 ease-in-out w-40 h-13 rounded-xl bg-white hover:bg-white/0 dark:bg-gray-900 hover:border-3 border-3 border-white dark:border-gray-900 dark:hover:border-gray-900 hover:text-white text-blue-500 text-md font-medium hover:cursor-pointer">
+          <button
+            className="transition-colors duration-800 ease-in-out w-40 h-13 rounded-xl bg-white hover:bg-white/0 dark:bg-gray-900 hover:border-3 border-3 border-white dark:border-gray-900 dark:hover:border-gray-900 hover:text-white text-blue-500 text-md font-medium hover:cursor-pointer"
+            onClick={() => scrollToSection("#projects")}
+          >
             View My Work
           </button>
-          <button className="transition-colors duration-800 ease-in-out w-40 h-13 rounded-xl hover:bg-white dark:hover:bg-gray-900 hover:text-blue-500 text-md hover:cursor-pointer font-medium border-3 hover:border-white dark:hover:border-gray-900 dark:border-gray-900">
+          <button
+            className="transition-colors duration-800 ease-in-out w-40 h-13 rounded-xl hover:bg-white dark:hover:bg-gray-900 hover:text-blue-500 text-md hover:cursor-pointer font-medium border-3 hover:border-white dark:hover:border-gray-900 dark:border-gray-900"
+            onClick={() => scrollToSection("#contact")}
+          >
             Contact Me
           </button>
         </div>
+        <a href="./CV.pdf" download>
+          <button className="flex gap-5 justify-center items-center my-6 transition-colors duration-800 ease-in-out w-full sm:w-85 h-13 rounded-xl bg-linear-to-r from-white to-white/0 hover:from-white/0 hover:to-white dark:hover:from-white/0 dark:hover:to-gray-900 dark:from-gray-900 hover:border-3 border-3 border-white dark:border-gray-900 dark:hover:border-gray-900 hover:text-white text-blue-500 text-md font-medium hover:cursor-pointer">
+            Download CV
+            <FaDownload size={20} />
+          </button>
+        </a>
       </div>
       <div className="flex items-center lg:items-start justify-center md:w-[50%]">
         <div className="bg-white/20 rounded-full w-60 h-60 lg:w-95 lg:h-95 flex items-center justify-center">
