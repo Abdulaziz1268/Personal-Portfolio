@@ -20,9 +20,15 @@ function ThemeToggle() {
       className="transition-all hover:scale-110 hover:cursor-pointer"
     >
       {theme === "dark" ? (
-        <MdLightMode size={30} className="text-white hover:text-blue-500" />
+        <MdLightMode
+          size={30}
+          className="text-white hover:text-blue-500 transition-colors duration-800 ease-in-out"
+        />
       ) : (
-        <MdDarkMode size={30} className="text-black hover:text-blue-500" />
+        <MdDarkMode
+          size={30}
+          className="text-black hover:text-blue-500 transition-colors duration-800 ease-in-out"
+        />
       )}
     </div>
   )
