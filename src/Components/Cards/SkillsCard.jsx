@@ -21,7 +21,7 @@ export default function SkillsCard({ tittle, tech, additional }) {
     return () => observer.disconnect()
   }, [])
   return (
-    <div className="py-5 px-4 w-[80%] lg:w-sm bg-white dark:bg-gray-900 shadow-md rounded-2xl hover:scale-110 duration-800 ease-in-out transition-all">
+    <div className="py-5 px-4 w-[90%] lg:w-sm bg-white dark:bg-gray-900 shadow-md rounded-2xl hover:scale-110 duration-800 ease-in-out transition-all">
       <p className="text-blue-500 font-semibold text-xl w-full mb-5">
         {tittle}
       </p>

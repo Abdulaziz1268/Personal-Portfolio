@@ -65,7 +65,7 @@ export default function NavBar() {
             )}
           </button>
           {menuOpen && (
-            <ul className="flex flex-col items-center justify-evenly text-md absolute right-12 top-8 overflow-hidden bg-white dark:bg-gray-900 border-0 rounded-2xl shadow-sm shadow-gray-400 transition-colors duration-800 ease-in-out">
+            <ul className="flex flex-col items-center justify-evenly text-md absolute right-0  top-10 overflow-hidden bg-white dark:bg-gray-900 border-0 rounded-2xl shadow-sm shadow-gray-400 transition-colors duration-800 ease-in-out">
               <li
                 className="transition-colors duration-800 ease-in-out text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-800 h-10 px-10 py-4 flex items-center hover:cursor-pointer  w-full"
                 onClick={() => handleNavClick("#home")}

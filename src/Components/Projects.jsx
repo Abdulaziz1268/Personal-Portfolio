@@ -10,6 +10,11 @@ const projects = [
     deployLink: "https://commansys.netlify.app/",
   },
   {
+    title: "CMS Mobile",
+    description: "A mobile app for complaint management system",
+    githubLink: "https://github.com/Abdulaziz1268/CMS-Mobile",
+  },
+  {
     title: "Tender Management System",
     description:
       "Platform for managing tender processes from submission to evaluation.",
